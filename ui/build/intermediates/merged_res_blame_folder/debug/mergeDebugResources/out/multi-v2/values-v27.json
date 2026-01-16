@@ -4,25 +4,6 @@
             "outputFile": "com.wireguard.android.ui-mergeDebugResources-77:/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/Users/bahadirburakkaraoglu/mvpn/ui/src/main/res/values-v27/styles.xml",
-                    "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "115,503",
-                        "endLines": "8,12",
-                        "endColumns": "12,12",
-                        "endOffsets": "497,641"
-                    },
-                    "to": {
-                        "startLines": "2,16",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,980",
-                        "endLines": "7,18",
-                        "endColumns": "12,12",
-                        "endOffsets": "437,1118"
-                    }
-                },
-                {
                     "source": "/Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/6c4ac2604d08ca75087871255db4b13d/transformed/core-splashscreen-1.0.1/res/values-v27/values-v27.xml",
                     "from": {
                         "startLines": "2,3,4,7",
@@ -39,6 +20,25 @@
                         "endLines": "8,9,12,15",
                         "endColumns": "80,92,12,12",
                         "endOffsets": "518,611,787,975"
+                    }
+                },
+                {
+                    "source": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/res/values-v27/styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "115,503",
+                        "endLines": "8,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "497,641"
+                    },
+                    "to": {
+                        "startLines": "2,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,980",
+                        "endLines": "7,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "437,1118"
                     }
                 }
             ]

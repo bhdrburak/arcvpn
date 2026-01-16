@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.mobileitm.vpn.debug",
+  "applicationId": "com.arc.vpn.debug",
   "variantName": "debug",
   "elements": [
     {

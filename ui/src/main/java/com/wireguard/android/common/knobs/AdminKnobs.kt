@@ -8,7 +8,7 @@ package com.wireguard.android.common.knobs
 import com.wireguard.android.Application
 import com.wireguard.android.domain.model.ProfileDetails
 
-private const val DEFAULT_CONNECTION_NAME = "MobileITM VPN"
+private const val DEFAULT_CONNECTION_NAME = "Arc VPN"
 const val DEFAULT_ALWAYS_ON_CONNECTION = false
 object AdminKnobs {
     private fun getActiveDetails(): ProfileDetails? {

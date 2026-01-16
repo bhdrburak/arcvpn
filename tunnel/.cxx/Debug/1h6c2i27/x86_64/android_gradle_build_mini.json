@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "/Users/bahadirburakkaraoglu/mvpn/tunnel/tools/CMakeLists.txt"
+    "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/tools/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "/Users/bahadirburakkaraoglu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
       "-C",
-      "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86_64",
+      "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86_64",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "/Users/bahadirburakkaraoglu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
     "-C",
-    "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86_64",
+    "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86_64",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
@@ -25,13 +25,13 @@
     "libwg-quick.so::@6890427a1f51a3e7e1df": {
       "artifactName": "libwg-quick.so",
       "abi": "x86_64",
-      "output": "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/x86_64/libwg-quick.so",
+      "output": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/x86_64/libwg-quick.so",
       "runtimeFiles": []
     },
     "libwg.so::@6890427a1f51a3e7e1df": {
       "artifactName": "libwg.so",
       "abi": "x86_64",
-      "output": "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/x86_64/libwg.so",
+      "output": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/x86_64/libwg.so",
       "runtimeFiles": []
     },
     "elf-cleaner::@6890427a1f51a3e7e1df": {

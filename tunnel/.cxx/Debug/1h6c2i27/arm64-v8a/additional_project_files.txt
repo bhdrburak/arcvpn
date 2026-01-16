@@ -1,4 +1,4 @@
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/elf-cleaner
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/elf-cleaner.rule
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/libwg-go.so
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/libwg-go.so.rule
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/elf-cleaner
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/elf-cleaner.rule
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/libwg-go.so
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a/CMakeFiles/libwg-go.so.rule

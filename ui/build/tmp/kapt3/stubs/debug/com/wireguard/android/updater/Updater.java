@@ -7,7 +7,7 @@ public final class Updater {
     @org.jetbrains.annotations.NotNull
     private static final java.lang.String UPDATE_URL_FMT = "https://download.wireguard.com/android-client/%s";
     @org.jetbrains.annotations.NotNull
-    private static final java.lang.String APK_NAME_PREFIX = "com.mobileitm.vpn.debug-";
+    private static final java.lang.String APK_NAME_PREFIX = "com.arc.vpn.debug-";
     @org.jetbrains.annotations.NotNull
     private static final java.lang.String APK_NAME_SUFFIX = ".apk";
     @org.jetbrains.annotations.NotNull

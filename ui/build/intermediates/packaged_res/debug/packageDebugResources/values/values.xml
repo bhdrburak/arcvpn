@@ -170,7 +170,7 @@
     <string name="allowed_apps">İzin verilen uygulamalar</string>
     <string name="allowed_ips">Allowed IPs</string>
     <string name="always_on_connection">Always-on Bağlantı</string>
-    <string name="app_name" translatable="false">MobileITM VPN</string>
+    <string name="app_name" translatable="false">Arc VPN</string>
     <string name="applications">Applications</string>
     <string name="bad_config_context">%1$s\'s %2$s</string>
     <string name="bad_config_context_top_level">%s</string>

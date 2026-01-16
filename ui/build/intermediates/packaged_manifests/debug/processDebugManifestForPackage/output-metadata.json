@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.mobileitm.vpn.debug",
+  "applicationId": "com.arc.vpn.debug",
   "variantName": "debug",
   "elements": [
     {

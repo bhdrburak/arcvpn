@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bahadirburakkaraoglu/mvpn/tunnel/tools
+# Install script for directory: /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

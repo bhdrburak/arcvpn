@@ -4,7 +4,7 @@
             "outputFile": "com.wireguard.android.ui-mergeDebugResources-77:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/bahadirburakkaraoglu/mvpn/ui/src/main/res/values-night/themes.xml",
+                    "source": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/bahadirburakkaraoglu/mvpn/ui/src/main/res/values-night/bools.xml",
-                    "from": {
-                        "startLines": "3,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "102,55",
-                        "endColumns": "50,46",
-                        "endOffsets": "148,97"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,106",
-                        "endColumns": "50,46",
-                        "endOffsets": "101,148"
-                    }
-                },
-                {
-                    "source": "/Users/bahadirburakkaraoglu/mvpn/ui/src/main/res/values-night/logviewer_colors.xml",
+                    "source": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/res/values-night/logviewer_colors.xml",
                     "from": {
                         "startLines": "1,2,3,4",
                         "startColumns": "4,4,4,4",
@@ -54,6 +37,23 @@
                         "startOffsets": "153,203,253,302",
                         "endColumns": "49,49,48,51",
                         "endOffsets": "198,248,297,349"
+                    }
+                },
+                {
+                    "source": "/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/res/values-night/bools.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,55",
+                        "endColumns": "50,46",
+                        "endOffsets": "148,97"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,46",
+                        "endOffsets": "101,148"
                     }
                 },
                 {

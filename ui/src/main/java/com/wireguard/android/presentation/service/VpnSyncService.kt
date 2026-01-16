@@ -223,7 +223,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
         val context = Application.get().applicationContext
         val futureTunnels = ArrayList<Deferred<ObservableTunnel>>()
         val throwables = ArrayList<Throwable>()
-        val name = "MobileItmVpn"
+        val name = "ArcVpn"
 
         var privateKey = ""
         val baos = ByteArrayOutputStream()
@@ -333,7 +333,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
             PendingIntent.FLAG_MUTABLE
         )
         val builder = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("MobileItmVPN")
+            .setContentTitle("ArcVPN")
             .setContentText("VPN Service")
             .setSmallIcon(R.drawable.ic_logo)
             .setContentIntent(pendingIntent)

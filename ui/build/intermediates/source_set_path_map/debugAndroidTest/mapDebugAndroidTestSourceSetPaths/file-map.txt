@@ -1,3 +1,0 @@
-com.wireguard.android.test.ui-mergeDebugAndroidTestResources-0 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.wireguard.android.test.ui-mergeDebugAndroidTestResources-1 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.wireguard.android.test.ui-debugAndroidTest-2 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 open class CacheManager(val context: Context) {
 
     private val gson: Gson = Gson()
-    private val prefs: SharedPreferences = context.getSharedPreferences("com.mobileitm.vpn", Context.MODE_PRIVATE)
+    private val prefs: SharedPreferences = context.getSharedPreferences("com.arc.vpn", Context.MODE_PRIVATE)
 
     fun readString(key: String, defaultValue: String): String {
         return prefs.getString(key, defaultValue) ?: defaultValue

@@ -21,7 +21,7 @@ android {
     }
     namespace = pkg
     defaultConfig {
-        applicationId = "com.mobileitm.vpn"
+        applicationId = "com.arc.vpn"
         minSdk = 23
         targetSdk = 34
         versionCode = providers.gradleProperty("wireguardVersionCode").get().toInt()

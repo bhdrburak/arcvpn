@@ -1,42 +1,42 @@
 -- Merging decision tree log ---
-permission#com.mobileitm.vpn.debug.permission.CONTROL_TUNNELS
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:22:5-27:47
+permission#com.arc.vpn.debug.permission.CONTROL_TUNNELS
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:22:5-27:47
 	android:label
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:26:9-49
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:26:9-49
 	android:protectionLevel
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:27:9-44
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:27:9-44
 	android:icon
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:25:9-43
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:25:9-43
 	android:description
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:24:9-61
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:24:9-61
 	android:name
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:23:9-67
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:23:9-67
 provider#com.wireguard.android.activity.LogViewerActivity$ExportedLogContentProvider
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:104:9-108:50
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:104:9-108:50
 	android:grantUriPermissions
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:108:13-47
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:108:13-47
 	android:authorities
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:106:13-64
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:106:13-64
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:107:13-37
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:107:13-37
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:105:13-82
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:105:13-82
 receiver#com.wireguard.android.model.TunnelManager$IntentReceiver
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:127:9-136:20
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:127:9-136:20
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:129:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:129:13-36
 	android:permission
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:130:13-77
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:130:13-77
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:128:13-63
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:128:13-63
 manifest
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:2:1-188:12
 MERGED from [androidx.databinding:databinding-adapters:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/761c2f880df6823f828d6ce3f8be8f75/transformed/databinding-adapters-8.3.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/7767e43079cf879938a443254132e4d0/transformed/databinding-ktx-8.3.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/fb2d1067bf03c5134a6a90a26f9a8903/transformed/databinding-runtime-8.3.1/AndroidManifest.xml:2:1-7:12
@@ -117,7 +117,7 @@ MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/bahadirburakkaraoglu/
 MERGED from [androidx.datastore:datastore:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/96c39b6c053a1894caf66a43cbb1a0da/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/36ab0d6908e673ecde7c43c2f46c2538/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/504587d570f756d90d128a8d2363471e/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-18:12
+MERGED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/d4151603e5f7c2212856d5b8821a9b12/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/a4ce54ce27e530255c8890f9a1db9be4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/1c27b92be6383887017446d1c5526060/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
@@ -135,68 +135,68 @@ MERGED from [io.reactivex.rxjava3:rxandroid:3.0.2] /Users/bahadirburakkaraoglu/.
 MERGED from [com.google.dagger:dagger-lint-aar:2.49] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/55e7393858c65abad06055c17ee6dbda/transformed/dagger-lint-aar-2.49/AndroidManifest.xml:16:1-19:12
 MERGED from [com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:2:1-21:12
 	package
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:4:5-43
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:4:5-43
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:7:5-77
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:7:22-74
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.INTERNET
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:8:5-67
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:9:5-81
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.MANAGE_CA_CERTIFICATES
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:10:5-12:47
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:10:5-12:47
 	tools:ignore
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:12:9-44
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:12:9-44
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:11:9-65
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:11:9-65
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:13:5-74
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:13:22-71
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:13:22-71
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:14:5-16:38
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:14:5-16:38
 	android:minSdkVersion
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:16:9-35
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:15:9-62
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:15:9-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:17:5-20:40
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:17:5-20:40
 	android:maxSdkVersion
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:19:9-35
 	tools:ignore
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:20:9-37
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:20:9-37
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:18:9-65
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:18:9-65
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:29:5-77
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:29:5-77
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:29:22-74
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:29:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:30:5-87
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:30:5-87
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:30:22-84
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:30:22-84
 application
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:32:5-180:19
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:32:5-180:19
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:32:5-180:19
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:32:5-180:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/7bc2d61376118038234859b3d0ed4a2d/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/7bc2d61376118038234859b3d0ed4a2d/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/f3e7d4a97d3106af579f991ba631a9c9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -215,8 +215,8 @@ MERGED from [androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/c
 MERGED from [androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-16:19
-MERGED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-16:19
+MERGED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-16:19
+MERGED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-16:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/1c27b92be6383887017446d1c5526060/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/1c27b92be6383887017446d1c5526060/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
@@ -228,109 +228,109 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakka
 MERGED from [com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 	android:screenOrientation
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:37:9-45
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:37:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:41:9-35
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:41:9-35
 	android:label
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:40:9-41
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:40:9-41
 	android:allowClearUserData
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:35:9-42
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:35:9-42
 	android:icon
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:39:9-43
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:39:9-43
 	android:allowBackup
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:34:9-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:34:9-36
 	android:banner
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:36:9-40
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:36:9-40
 	android:theme
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:42:9-58
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:42:9-58
 	android:enableOnBackInvokedCallback
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:38:9-51
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:38:9-51
 	android:usesCleartextTraffic
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:43:9-44
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:43:9-44
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:33:9-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:33:9-36
 activity#com.wireguard.android.activity.TunnelToggleActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:45:9-48:56
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:45:9-48:56
 	android:excludeFromRecents
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:47:13-46
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:47:13-46
 	android:theme
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:48:13-53
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:48:13-53
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:46:13-58
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:46:13-58
 activity#com.wireguard.android.activity.HomeActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:50:9-64:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:50:9-64:20
 	android:screenOrientation
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:53:13-49
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:53:13-49
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:52:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:52:13-36
 	android:theme
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:54:13-62
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:54:13-62
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:51:13-50
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:51:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:55:13-59:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:17-69
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:25-66
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:17-77
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:27-74
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:58:27-74
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE_PREFERENCES
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:61:13-63:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:61:13-63:29
 action#android.service.quicksettings.action.QS_TILE_PREFERENCES
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:62:17-99
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:62:17-99
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:62:25-96
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:62:25-96
 activity#com.wireguard.android.activity.MainActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:66:9-68:48
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:66:9-68:48
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:68:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:67:13-50
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:67:13-50
 activity#com.wireguard.android.activity.TvMainActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:70:9-78:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:70:9-78:20
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:72:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:72:13-36
 	android:theme
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:73:13-43
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:73:13-43
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:71:13-52
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:71:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:74:13-77:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:74:13-77:29
 category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:76:17-86
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:76:17-86
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:76:27-83
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:76:27-83
 activity#com.wireguard.android.activity.SettingsActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:80:9-83:67
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:80:9-83:67
 	android:parentActivityName
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:83:13-64
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:83:13-64
 	android:label
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:82:13-45
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:82:13-45
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:81:13-54
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:81:13-54
 activity#com.wireguard.android.activity.TunnelCreatorActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:85:9-88:67
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:85:9-88:67
 	android:parentActivityName
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:88:13-64
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:88:13-64
 	android:label
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:87:13-58
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:87:13-58
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:86:13-59
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:86:13-59
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:90:9-93:49
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:90:9-93:49
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
 	android:clearTaskOnLaunch
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
 	android:screenOrientation
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:92:13-51
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:92:13-51
 		REJECTED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
 	android:stateNotNeeded
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
@@ -339,129 +339,129 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakka
 	android:theme
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
 	tools:replace
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:93:13-46
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:93:13-46
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:91:13-74
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:91:13-74
 activity#com.wireguard.android.activity.LogViewerActivity
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:95:9-102:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:95:9-102:20
 	android:label
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:98:13-53
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:98:13-53
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:97:13-37
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:97:13-37
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:96:13-55
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:96:13-55
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:99:13-101:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:99:13-101:29
 receiver#com.wireguard.android.presentation.receiver.BootShutdownReceiver
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:110:9-117:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:110:9-117:20
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:112:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:112:13-36
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:111:13-71
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:111:13-71
 intent-filter#action:name:android.intent.action.ACTION_SHUTDOWN+action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:113:13-116:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:113:13-116:29
 action#android.intent.action.ACTION_SHUTDOWN
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:114:17-80
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:114:17-80
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:114:25-77
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:114:25-77
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:115:17-79
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:115:17-79
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:115:25-76
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:115:25-76
 receiver#com.wireguard.android.updater.Updater$AppUpdatedReceiver
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:119:9-125:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:119:9-125:20
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:121:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:121:13-36
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:120:13-63
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:120:13-63
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:122:13-124:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:122:13-124:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:123:17-84
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:123:17-84
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:123:25-81
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:123:25-81
 receiver#com.wireguard.android.VpnConfigurationReceiver
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:140:9-146:20
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:140:9-146:20
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:142:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:142:13-36
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:141:13-53
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:141:13-53
 intent-filter#action:name:com.mobileitm.mdm.view.main.VPNCONFIGURATION
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:143:13-145:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:143:13-145:29
 action#com.mobileitm.mdm.view.main.VPNCONFIGURATION
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:144:17-87
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:144:17-87
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:144:25-84
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:144:25-84
 service#com.wireguard.android.presentation.service.QuickTileService
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:148:9-165:19
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:148:9-165:19
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:150:13-36
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:150:13-36
 	android:permission
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:152:13-77
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:152:13-77
 	android:icon
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:151:13-45
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:151:13-45
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:149:13-66
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:149:13-66
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:154:13-156:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:154:13-156:29
 action#android.service.quicksettings.action.QS_TILE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:155:17-87
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:155:17-87
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:155:25-84
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:155:25-84
 meta-data#android.service.quicksettings.ACTIVE_TILE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:158:13-160:41
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:158:13-160:41
 	android:value
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:160:17-38
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:160:17-38
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:159:17-73
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:159:17-73
 meta-data#android.service.quicksettings.TOGGLEABLE_TILE
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:162:13-164:40
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:162:13-164:40
 	android:value
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:164:17-37
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:164:17-37
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:163:17-77
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:163:17-77
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:167:9-169:56
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:167:9-169:56
 	android:resource
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:169:13-53
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:169:13-53
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:168:13-60
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:168:13-60
 meta-data#preloaded_fonts
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:170:9-172:57
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:170:9-172:57
 	android:resource
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:172:13-54
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:172:13-54
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:171:13-43
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:171:13-43
 service#com.wireguard.android.presentation.service.VpnSyncService
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:174:9-177:64
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:174:9-177:64
 	android:exported
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:176:13-37
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:176:13-37
 	android:foregroundServiceType
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:177:13-53
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:177:13-53
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:175:13-64
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:175:13-64
 queries
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:182:5-187:15
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:182:5-187:15
 intent#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:183:9-186:18
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:183:9-186:18
 intent-filter#action:name:com.wireguard.android.action.REFRESH_TUNNEL_STATES+action:name:com.wireguard.android.action.SET_TUNNEL_DOWN+action:name:com.wireguard.android.action.SET_TUNNEL_UP
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:131:13-135:29
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:131:13-135:29
 action#com.wireguard.android.action.REFRESH_TUNNEL_STATES
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:132:17-93
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:132:17-93
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:132:25-90
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:132:25-90
 action#com.wireguard.android.action.SET_TUNNEL_UP
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:133:17-85
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:133:17-85
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:133:25-82
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:133:25-82
 action#com.wireguard.android.action.SET_TUNNEL_DOWN
-ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:134:17-87
+ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:134:17-87
 	android:name
-		ADDED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:134:25-84
+		ADDED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml:134:25-84
 uses-sdk
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
-INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/761c2f880df6823f828d6ce3f8be8f75/transformed/databinding-adapters-8.3.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-adapters:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/761c2f880df6823f828d6ce3f8be8f75/transformed/databinding-adapters-8.3.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-ktx:8.3.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/7767e43079cf879938a443254132e4d0/transformed/databinding-ktx-8.3.1/AndroidManifest.xml:5:5-44
@@ -622,8 +622,8 @@ MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/bah
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/36ab0d6908e673ecde7c43c2f46c2538/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/504587d570f756d90d128a8d2363471e/transformed/runtime-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.5.1] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/504587d570f756d90d128a8d2363471e/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/d4151603e5f7c2212856d5b8821a9b12/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/d4151603e5f7c2212856d5b8821a9b12/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/a4ce54ce27e530255c8890f9a1db9be4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -657,9 +657,9 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.49] /Users/bahadirburakkaraoglu
 MERGED from [com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml
+		INJECTED from /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/AndroidManifest.xml
 uses-permission#android.permission.USE_BIOMETRIC
 ADDED from [androidx.biometric:biometric:1.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/171dc1df7f36eab1b5880d4c989f6a9c/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
 	android:name
@@ -720,7 +720,7 @@ ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/cache
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
-permission#com.mobileitm.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.arc.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
@@ -730,24 +730,24 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
-uses-permission#com.mobileitm.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.arc.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 service#com.wireguard.android.backend.GoBackend$VpnService
-ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-15:19
+ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-15:19
 	android:exported
-		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
 	android:permission
-		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-69
+		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-69
 	android:name
-		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-78
+		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-78
 intent-filter#action:name:android.net.VpnService
-ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-14:29
+ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-14:29
 action#android.net.VpnService
-ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:17-65
+ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:17-65
 	android:name
-		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:25-62
+		ADDED from [:tunnel] /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:25-62
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value

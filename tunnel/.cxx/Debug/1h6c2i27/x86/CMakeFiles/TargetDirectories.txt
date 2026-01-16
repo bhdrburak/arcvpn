@@ -1,6 +1,6 @@
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg-quick.so.dir
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg.so.dir
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg-go.so.dir
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/elf-cleaner.dir
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/edit_cache.dir
-/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/rebuild_cache.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg-quick.so.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg.so.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/libwg-go.so.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/elf-cleaner.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/edit_cache.dir
+/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/.cxx/Debug/1h6c2i27/x86/CMakeFiles/rebuild_cache.dir

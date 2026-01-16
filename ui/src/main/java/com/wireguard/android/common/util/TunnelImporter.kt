@@ -148,7 +148,7 @@ object TunnelImporter {
         val context = Application.get().applicationContext
         val futureTunnels = ArrayList<Deferred<ObservableTunnel>>()
         val throwables = ArrayList<Throwable>()
-        val name = "MobileItmVpn"
+        val name = "ArcVpn"
 
         val baos = ByteArrayOutputStream()
 

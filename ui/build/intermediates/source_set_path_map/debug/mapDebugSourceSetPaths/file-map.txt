@@ -72,10 +72,10 @@ com.wireguard.android.ui-navigation-ui-2.7.7-70 /Users/bahadirburakkaraoglu/.gra
 com.wireguard.android.ui-hilt-navigation-1.2.0-71 /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/fadc6c22249b5a883d9b15ca94b01a3f/transformed/hilt-navigation-1.2.0/res
 com.wireguard.android.ui-databinding-runtime-8.3.1-72 /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/fb2d1067bf03c5134a6a90a26f9a8903/transformed/databinding-runtime-8.3.1/res
 com.wireguard.android.ui-lifecycle-viewmodel-2.6.2-73 /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/ff917b1402969c8388e8ecac1a6d596f/transformed/lifecycle-viewmodel-2.6.2/res
-com.wireguard.android.ui-generateDebugEmptyResourceFiles-74 /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/packaged_res/debug/generateDebugEmptyResourceFiles/res
-com.wireguard.android.ui-pngs-75 /Users/bahadirburakkaraoglu/mvpn/ui/build/generated/res/pngs/debug
-com.wireguard.android.ui-packageDebugResources-76 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.wireguard.android.ui-packageDebugResources-77 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.wireguard.android.ui-debug-78 /Users/bahadirburakkaraoglu/mvpn/ui/build/intermediates/merged_res/debug/mergeDebugResources
-com.wireguard.android.ui-debug-79 /Users/bahadirburakkaraoglu/mvpn/ui/src/debug/res
-com.wireguard.android.ui-main-80 /Users/bahadirburakkaraoglu/mvpn/ui/src/main/res
+com.wireguard.android.ui-generateDebugEmptyResourceFiles-74 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/build/intermediates/packaged_res/debug/generateDebugEmptyResourceFiles/res
+com.wireguard.android.ui-pngs-75 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/build/generated/res/pngs/debug
+com.wireguard.android.ui-packageDebugResources-76 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.wireguard.android.ui-packageDebugResources-77 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.wireguard.android.ui-debug-78 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/build/intermediates/merged_res/debug/mergeDebugResources
+com.wireguard.android.ui-debug-79 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/debug/res
+com.wireguard.android.ui-main-80 /Users/bahadirburakkaraoglu/StudioProjects/arcvpn/ui/src/main/res

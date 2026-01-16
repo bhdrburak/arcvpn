@@ -1,4 +1,0 @@
-com.wireguard.android.tunnel.test.tunnel-mergeDebugAndroidTestResources-0 /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.wireguard.android.tunnel.test.tunnel-mergeDebugAndroidTestResources-1 /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.wireguard.android.tunnel.test.tunnel-debugAndroidTest-2 /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
-com.wireguard.android.tunnel.test.tunnel-generateDebugEmptyResourceFiles-3 /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/packaged_res/debug/generateDebugEmptyResourceFiles/res

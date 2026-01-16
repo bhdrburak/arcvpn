@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.mobileitm.vpn.debug",
+  "applicationId": "com.arc.vpn.debug",
   "variantName": "debug",
   "elements": []
 }

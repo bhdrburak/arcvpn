@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobileitm.vpn.debug"
+    package="com.arc.vpn.debug"
     android:installLocation="internalOnly"
     android:versionCode="581"
     android:versionName="1.0.61-debug" >
@@ -23,7 +23,7 @@
         android:maxSdkVersion="28" />
 
     <permission
-        android:name="com.mobileitm.vpn.debug.permission.CONTROL_TUNNELS"
+        android:name="com.arc.vpn.debug.permission.CONTROL_TUNNELS"
         android:description="@string/permission_description"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/permission_label"
@@ -44,10 +44,10 @@
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
     <permission
-        android:name="com.mobileitm.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.arc.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.mobileitm.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.arc.vpn.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
     <uses-feature
         android:name="android.hardware.camera"
@@ -143,7 +143,7 @@
 
         <provider
             android:name="com.wireguard.android.activity.LogViewerActivity$ExportedLogContentProvider"
-            android:authorities="com.mobileitm.vpn.debug.exported-log"
+            android:authorities="com.arc.vpn.debug.exported-log"
             android:exported="false"
             android:grantUriPermissions="true" />
 
@@ -165,7 +165,7 @@
         <receiver
             android:name="com.wireguard.android.model.TunnelManager$IntentReceiver"
             android:exported="true"
-            android:permission="com.mobileitm.vpn.debug.permission.CONTROL_TUNNELS" >
+            android:permission="com.arc.vpn.debug.permission.CONTROL_TUNNELS" >
             <intent-filter>
                 <action android:name="com.wireguard.android.action.REFRESH_TUNNEL_STATES" />
                 <action android:name="com.wireguard.android.action.SET_TUNNEL_UP" />
@@ -220,7 +220,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.mobileitm.vpn.debug.androidx-startup"
+            android:authorities="com.arc.vpn.debug.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

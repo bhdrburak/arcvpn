@@ -5,20 +5,20 @@
 5    <uses-sdk android:minSdkVersion="21" />
 6
 7    <application>
-7-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:4:5-13:19
+7-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:4:5-13:19
 8        <service
-8-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:5:9-12:19
+8-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:5:9-12:19
 9            android:name="com.wireguard.android.backend.GoBackend$VpnService"
-9-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:6:13-78
+9-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:6:13-78
 10            android:exported="false"
-10-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:8:13-37
+10-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:8:13-37
 11            android:permission="android.permission.BIND_VPN_SERVICE" >
-11-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:7:13-69
+11-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:7:13-69
 12            <intent-filter>
-12-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:9:13-11:29
+12-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:9:13-11:29
 13                <action android:name="android.net.VpnService" />
-13-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:10:17-65
-13-->/Users/bahadirburakkaraoglu/mvpn/tunnel/src/main/AndroidManifest.xml:10:25-62
+13-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:10:17-65
+13-->/Users/bahadirburakkaraoglu/StudioProjects/arcvpn/tunnel/src/main/AndroidManifest.xml:10:25-62
 14            </intent-filter>
 15        </service>
 16    </application>
