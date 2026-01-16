@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/layout_app_bar.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/layout_app_bar.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_manual_setup.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_manual_setup.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/log_viewer_activity.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/log_viewer_activity.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_host_setup.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_host_setup.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_status.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/activity_home.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_detail_peer.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_detail_peer.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/configuration_profile_item_view.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/configuration_profile_item_view.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/item_dialog_list.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/item_dialog_list.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/app_list_item.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/app_list_item.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_list_fragment.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_editor_peer.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_editor_peer.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_start.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_start.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tv_file_list_item.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tv_file_list_item.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_list_item.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_list_item.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/main_activity.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/main_activity.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tv_activity.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tv_activity.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/log_viewer_entry.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/log_viewer_entry.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/app_list_dialog_fragment.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/app_list_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_configuration_profiles.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_configuration_profiles.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/config_naming_dialog_fragment.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/config_naming_dialog_fragment.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/add_tunnels_bottom_sheet.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/add_tunnels_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/fragment_qr_setup.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/fragment_qr_setup.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_editor_fragment.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_editor_fragment.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tv_tunnel_list_item.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tv_tunnel_list_item.xml"
+    },
+    {
+        "merged": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-mergeReleaseResources-78:/layout/tunnel_detail_fragment.xml",
+        "source": "/Users/bahadirburakkaraoglu/.gradle/daemon/8.4/com.wireguard.android.ui-main-81:/layout/tunnel_detail_fragment.xml"
+    }
+]

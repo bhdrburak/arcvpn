@@ -1,0 +1,4 @@
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86/CMakeFiles/elf-cleaner
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86/CMakeFiles/elf-cleaner.rule
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86/CMakeFiles/libwg-go.so
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86/CMakeFiles/libwg-go.so.rule

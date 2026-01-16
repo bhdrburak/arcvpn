@@ -1,0 +1,43 @@
+{
+  "buildFiles": [
+    "/Users/bahadirburakkaraoglu/mvpn/tunnel/tools/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/bahadirburakkaraoglu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/bahadirburakkaraoglu/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "libwg-go.so::@6890427a1f51a3e7e1df": {
+      "artifactName": "libwg-go.so",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "libwg-quick.so::@6890427a1f51a3e7e1df": {
+      "artifactName": "libwg-quick.so",
+      "abi": "x86",
+      "output": "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/x86/libwg-quick.so",
+      "runtimeFiles": []
+    },
+    "libwg.so::@6890427a1f51a3e7e1df": {
+      "artifactName": "libwg.so",
+      "abi": "x86",
+      "output": "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/x86/libwg.so",
+      "runtimeFiles": []
+    },
+    "elf-cleaner::@6890427a1f51a3e7e1df": {
+      "artifactName": "elf-cleaner",
+      "abi": "x86",
+      "runtimeFiles": []
+    }
+  }
+}

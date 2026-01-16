@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WireGuard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "elf-cleaner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-elf-cleaner-Debug-764d15f66c6c94d47b7f.json",
+					"name" : "elf-cleaner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libwg-go.so::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libwg-go.so-Debug-261b73625174b22fdd89.json",
+					"name" : "libwg-go.so",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libwg-quick.so::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libwg-quick.so-Debug-a3fa44f78eccbb6a801a.json",
+					"name" : "libwg-quick.so",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libwg.so::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libwg.so-Debug-03b627d3f3f45096801d.json",
+					"name" : "libwg.so",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a",
+		"source" : "/Users/bahadirburakkaraoglu/mvpn/tunnel/tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

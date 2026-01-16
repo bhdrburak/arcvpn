@@ -1,0 +1,6 @@
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/libwg-quick.so.dir
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/libwg.so.dir
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/libwg-go.so.dir
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/elf-cleaner.dir
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/6i6y432g/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+ninja: Entering directory `/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/armeabi-v7a'
+[1/2] Building wireguard-go
+make: Nothing to be done for 'default'.
+[2/2] Building elf-cleaner

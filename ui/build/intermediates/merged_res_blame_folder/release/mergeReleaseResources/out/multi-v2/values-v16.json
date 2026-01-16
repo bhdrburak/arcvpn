@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.wireguard.android.ui-mergeReleaseResources-77:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/2a9520c2815a79ecb299f50bd09cadfc/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

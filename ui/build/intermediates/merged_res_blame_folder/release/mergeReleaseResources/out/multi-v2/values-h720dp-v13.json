@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.wireguard.android.ui-mergeReleaseResources-77:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/2a9520c2815a79ecb299f50bd09cadfc/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

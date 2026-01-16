@@ -1,0 +1,27 @@
+# ninja log v5
+1	31	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/arm64-v8a/CMakeFiles/libwg-go.so	bc99e2411826f521
+4412	4462	1752761075880069192	/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/arm64-v8a/libwg.so	3025908b4bc6cb5d
+1071	4412	1752761075827530242	CMakeFiles/libwg.so.dir/wireguard-tools/src/curve25519.c.o	7515e379bffbf094
+1706	2439	1752761073857066742	/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/arm64-v8a/libwg-quick.so	1d119317f0d5da86
+1	31	0	CMakeFiles/libwg-go.so	bc99e2411826f521
+1076	1925	1752761073340528193	CMakeFiles/libwg.so.dir/wireguard-tools/src/ipc.c.o	e8303839316cbf5b
+1554	1701	1752761073118020935	CMakeFiles/libwg.so.dir/wireguard-tools/src/setconf.c.o	6a6cfb5f5b56899b
+1555	1731	1752761073146214972	CMakeFiles/libwg.so.dir/wireguard-tools/src/show.c.o	987ec816adac8d03
+1070	1624	1752761073035859405	CMakeFiles/libwg.so.dir/wireguard-tools/src/config.c.o	871548aa0d7224dc
+1073	1554	1752761072963569083	CMakeFiles/libwg.so.dir/wireguard-tools/src/encoding.c.o	3f11224c67d79b18
+1624	1703	1752761073119009393	CMakeFiles/libwg.so.dir/wireguard-tools/src/wg.c.o	be8efb8d5deac134
+0	12	0	clean	b2f6db4e2195b3df
+1066	1706	1752761073122137517	CMakeFiles/libwg-quick.so.dir/wireguard-tools/src/wg-quick/android.c.o	8ddd6e9f89da208d
+1557	1672	1752761073084732315	CMakeFiles/libwg.so.dir/wireguard-tools/src/showconf.c.o	59accda5b83c639b
+2	635	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/arm64-v8a/CMakeFiles/elf-cleaner	3d6545ee9b0d6c3
+1074	1555	1752761072965161166	CMakeFiles/libwg.so.dir/wireguard-tools/src/genkey.c.o	c9263b19a677f35
+1077	1559	1752761072963478124	CMakeFiles/libwg.so.dir/wireguard-tools/src/pubkey.c.o	2036f405f3c28fc6
+1552	1652	1752761073061182401	CMakeFiles/libwg.so.dir/wireguard-tools/src/set.c.o	2545b313d439154c
+1067	1557	1752761072966023624	CMakeFiles/libwg-quick.so.dir/ndk-compat/compat.c.o	bd81198a922e8d90
+1069	1552	1752761072963433999	CMakeFiles/libwg.so.dir/ndk-compat/compat.c.o	4d63f2f5f1355303
+1559	1639	1752761073050379903	CMakeFiles/libwg.so.dir/wireguard-tools/src/terminal.c.o	e45e2fcab6626579
+2	635	0	CMakeFiles/elf-cleaner	3d6545ee9b0d6c3
+1	38	0	CMakeFiles/libwg-go.so	bc99e2411826f521
+1	38	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/arm64-v8a/CMakeFiles/libwg-go.so	bc99e2411826f521
+2	957	0	CMakeFiles/elf-cleaner	3d6545ee9b0d6c3
+2	957	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/arm64-v8a/CMakeFiles/elf-cleaner	3d6545ee9b0d6c3

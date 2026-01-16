@@ -1,0 +1,10 @@
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <restriction
+        android:description="@string/vpn_profiles_description"
+        android:key="vpnProfiles"
+        android:restrictionType="string"
+        android:title="@string/vpn_profiles_title" />
+
+
+</restrictions>

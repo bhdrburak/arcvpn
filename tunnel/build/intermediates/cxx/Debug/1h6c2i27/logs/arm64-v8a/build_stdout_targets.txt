@@ -1,0 +1,19 @@
+ninja: Entering directory `/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/Debug/1h6c2i27/arm64-v8a'
+[1/2] Building wireguard-go
+mkdir -p "/Users/bahadirburakkaraoglu/.gradle/caches/golang/"
+flock "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz.lock" -c ' \
+[ -f "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz" ] && exit 0; \
+curl -o "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz.tmp" "https://dl.google.com/go/go1.21.3.darwin-amd64.tar.gz" && \
+echo "27014fc69e301d7588a169ca239b3cc609f0aa1abf38528bf0d20d3b259211eb  /Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz.tmp" | sha256sum -c && \
+mv "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz.tmp" "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz"'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 13 64.1M   13 9184k    0     0  9230k      0  0:00:07 --:--:--  0:00:07 9239k 42 64.1M   42 27.0M    0     0  13.5M      0  0:00:04  0:00:01  0:00:03 13.5M 71 64.1M   71 46.0M    0     0  15.3M      0  0:00:04  0:00:02  0:00:02 15.3M100 64.1M  100 64.1M    0     0  16.2M      0  0:00:03  0:00:03 --:--:-- 16.2M
+/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz.tmp: OK
+mkdir -p "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/"
+flock "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/.prepared.lock" -c ' \
+[ -f "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/.prepared" ] && exit 0; \
+tar -C "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/" --strip-components=1 -xzf "/Users/bahadirburakkaraoglu/.gradle/caches/golang/go1.21.3.darwin-amd64.tar.gz" && \
+patch -p1 -f -N -r- -d "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/" < goruntime-boottime-over-monotonic.diff && \
+touch "/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/Debug/1h6c2i27/obj/arm64-v8a/../generated-src/go-1.21.3/.prepared"'
+[2/2] Building elf-cleaner

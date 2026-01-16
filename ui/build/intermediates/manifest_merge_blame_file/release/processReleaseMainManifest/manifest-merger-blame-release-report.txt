@@ -1,0 +1,512 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobileitm.vpn"
+4    android:installLocation="internalOnly"
+5    android:versionCode="581"
+6    android:versionName="1.0.61" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:7:5-77
+13-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.MANAGE_CA_CERTIFICATES" />
+16-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:10:5-12:47
+16-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:11:9-65
+17    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+17-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:13:5-74
+17-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:13:22-71
+18    <uses-permission
+18-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:14:5-16:38
+19        android:name="android.permission.SYSTEM_ALERT_WINDOW"
+19-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:15:9-62
+20        android:minSdkVersion="34" />
+20-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:16:9-35
+21    <uses-permission
+21-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:17:5-20:40
+22        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+22-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:18:9-65
+23        android:maxSdkVersion="28" />
+23-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:19:9-35
+24
+25    <permission
+26        android:name="com.mobileitm.vpn.permission.CONTROL_TUNNELS"
+26-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:23:9-67
+27        android:description="@string/permission_description"
+27-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:24:9-61
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:25:9-43
+29        android:label="@string/permission_label"
+29-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:26:9-49
+30        android:protectionLevel="dangerous" />
+30-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:27:9-44
+31
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:29:5-77
+32-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:29:22-74
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+33-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:30:5-87
+33-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:30:22-84
+34
+35    <queries>
+35-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:182:5-187:15
+36        <intent>
+36-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:183:9-186:18
+37            <action android:name="android.intent.action.MAIN" />
+37-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:17-69
+37-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:25-66
+38
+39            <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:17-77
+39-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:27-74
+40        </intent>
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+43-->[androidx.biometric:biometric:1.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/171dc1df7f36eab1b5880d4c989f6a9c/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+43-->[androidx.biometric:biometric:1.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/171dc1df7f36eab1b5880d4c989f6a9c/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+44    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+44-->[androidx.biometric:biometric:1.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/171dc1df7f36eab1b5880d4c989f6a9c/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+44-->[androidx.biometric:biometric:1.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/171dc1df7f36eab1b5880d4c989f6a9c/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+45
+46    <permission
+46-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+47        android:name="com.mobileitm.vpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+47-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+48        android:protectionLevel="signature" />
+48-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+49
+50    <uses-permission android:name="com.mobileitm.vpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+50-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+50-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+51    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+53        android:name="android.hardware.camera"
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+55    <uses-feature
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+56        android:name="android.hardware.camera.front"
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+57        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+58    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+59    <uses-feature
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+60        android:name="android.hardware.camera.autofocus"
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+61        android:required="false" />
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+62    <uses-feature
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+63        android:name="android.hardware.camera.flash"
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+64        android:required="false" />
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+65    <uses-feature
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+66        android:name="android.hardware.screen.landscape"
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+67        android:required="false" />
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+68    <uses-feature
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+69        android:name="android.hardware.wifi"
+69-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+70        android:required="false" />
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+71
+72    <application
+72-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:32:5-180:19
+73        android:name="com.wireguard.android.Application"
+73-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:33:9-36
+74        android:allowBackup="false"
+74-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:34:9-36
+75        android:allowClearUserData="true"
+75-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:35:9-42
+76        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+76-->[androidx.core:core:1.12.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/5bb2dc7d6d2348203d398b984d6cc4de/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+77        android:banner="@mipmap/banner"
+77-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:36:9-40
+78        android:enableOnBackInvokedCallback="true"
+78-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:38:9-51
+79        android:extractNativeLibs="false"
+80        android:icon="@mipmap/ic_launcher"
+80-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:39:9-43
+81        android:label="@string/app_name"
+81-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:40:9-41
+82        android:localeConfig="@xml/_generated_res_locale_config"
+83        android:screenOrientation="portrait"
+83-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:37:9-45
+84        android:supportsRtl="true"
+84-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:41:9-35
+85        android:theme="@style/MobileITMVpnTheme.Starting"
+85-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:42:9-58
+86        android:usesCleartextTraffic="true" >
+86-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:43:9-44
+87        <activity
+87-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:45:9-48:56
+88            android:name="com.wireguard.android.activity.TunnelToggleActivity"
+88-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:46:13-58
+89            android:excludeFromRecents="true"
+89-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:47:13-46
+90            android:theme="@style/NoBackgroundTheme" />
+90-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:48:13-53
+91        <activity
+91-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:50:9-64:20
+92            android:name="com.wireguard.android.activity.HomeActivity"
+92-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:51:13-50
+93            android:exported="true"
+93-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:52:13-36
+94            android:screenOrientation="portrait"
+94-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:53:13-49
+95            android:theme="@style/MobileITMVpnTheme.Starting" >
+95-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:54:13-62
+96            <intent-filter>
+96-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:55:13-59:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:17-69
+97-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:17-77
+99-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:58:27-74
+100            </intent-filter>
+101            <intent-filter>
+101-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:61:13-63:29
+102                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+102-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:62:17-99
+102-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:62:25-96
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:66:9-68:48
+106            android:name="com.wireguard.android.activity.MainActivity"
+106-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:67:13-50
+107            android:exported="true" />
+107-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:68:13-36
+108        <activity
+108-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:70:9-78:20
+109            android:name="com.wireguard.android.activity.TvMainActivity"
+109-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:71:13-52
+110            android:exported="true"
+110-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:72:13-36
+111            android:theme="@style/TvTheme" >
+111-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:73:13-43
+112            <intent-filter>
+112-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:74:13-77:29
+113                <action android:name="android.intent.action.MAIN" />
+113-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:17-69
+113-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:25-66
+114
+115                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+115-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:76:17-86
+115-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:76:27-83
+116            </intent-filter>
+117        </activity>
+118        <activity
+118-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:80:9-83:67
+119            android:name="com.wireguard.android.activity.SettingsActivity"
+119-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:81:13-54
+120            android:label="@string/settings"
+120-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:82:13-45
+121            android:parentActivityName="com.wireguard.android.activity.MainActivity" />
+121-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:83:13-64
+122        <activity
+122-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:85:9-88:67
+123            android:name="com.wireguard.android.activity.TunnelCreatorActivity"
+123-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:86:13-59
+124            android:label="@string/create_activity_title"
+124-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:87:13-58
+125            android:parentActivityName="com.wireguard.android.activity.MainActivity" />
+125-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:88:13-64
+126        <activity
+126-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:90:9-93:49
+127            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+127-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:91:13-74
+128            android:clearTaskOnLaunch="true"
+128-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+129            android:screenOrientation="fullSensor"
+129-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:92:13-51
+130            android:stateNotNeeded="true"
+130-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+131            android:theme="@style/zxing_CaptureTheme"
+131-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+132            android:windowSoftInputMode="stateAlwaysHidden" />
+132-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/23520069b856908f9023879903218621/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+133        <activity
+133-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:95:9-102:20
+134            android:name="com.wireguard.android.activity.LogViewerActivity"
+134-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:96:13-55
+135            android:exported="false"
+135-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:97:13-37
+136            android:label="@string/log_viewer_title" >
+136-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:98:13-53
+137            <intent-filter>
+137-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:99:13-101:29
+138                <action android:name="android.intent.action.MAIN" />
+138-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:17-69
+138-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:56:25-66
+139            </intent-filter>
+140        </activity>
+141
+142        <provider
+143            android:name="com.wireguard.android.activity.LogViewerActivity$ExportedLogContentProvider"
+143-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:105:13-82
+144            android:authorities="com.mobileitm.vpn.exported-log"
+144-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:106:13-64
+145            android:exported="false"
+145-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:107:13-37
+146            android:grantUriPermissions="true" />
+146-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:108:13-47
+147
+148        <receiver
+148-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:110:9-117:20
+149            android:name="com.wireguard.android.presentation.receiver.BootShutdownReceiver"
+149-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:111:13-71
+150            android:exported="true" >
+150-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:112:13-36
+151            <intent-filter>
+151-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:113:13-116:29
+152                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+152-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:114:17-80
+152-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:114:25-77
+153                <action android:name="android.intent.action.BOOT_COMPLETED" />
+153-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:115:17-79
+153-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:115:25-76
+154            </intent-filter>
+155        </receiver>
+156        <receiver
+156-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:119:9-125:20
+157            android:name="com.wireguard.android.updater.Updater$AppUpdatedReceiver"
+157-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:120:13-63
+158            android:exported="true" >
+158-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:121:13-36
+159            <intent-filter>
+159-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:122:13-124:29
+160                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+160-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:123:17-84
+160-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:123:25-81
+161            </intent-filter>
+162        </receiver>
+163        <receiver
+164            android:name="com.wireguard.android.model.TunnelManager$IntentReceiver"
+164-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:128:13-63
+165            android:exported="true"
+165-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:129:13-36
+166            android:permission="com.mobileitm.vpn.permission.CONTROL_TUNNELS" >
+166-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:130:13-77
+167            <intent-filter>
+167-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:131:13-135:29
+168                <action android:name="com.wireguard.android.action.REFRESH_TUNNEL_STATES" />
+168-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:132:17-93
+168-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:132:25-90
+169                <action android:name="com.wireguard.android.action.SET_TUNNEL_UP" />
+169-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:133:17-85
+169-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:133:25-82
+170                <action android:name="com.wireguard.android.action.SET_TUNNEL_DOWN" />
+170-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:134:17-87
+170-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:134:25-84
+171            </intent-filter>
+172        </receiver>
+173
+174        <!--
+175     If this receiver listens for broadcasts sent from the system or from
+176     other apps, even other apps that you own, set android:exported to "true".
+177        -->
+178        <receiver
+178-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:140:9-146:20
+179            android:name="com.wireguard.android.VpnConfigurationReceiver"
+179-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:141:13-53
+180            android:exported="true" >
+180-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:142:13-36
+181            <intent-filter>
+181-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:143:13-145:29
+182                <action android:name="com.mobileitm.mdm.view.main.VPNCONFIGURATION" />
+182-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:144:17-87
+182-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:144:25-84
+183            </intent-filter>
+184        </receiver>
+185
+186        <service
+186-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:148:9-165:19
+187            android:name="com.wireguard.android.presentation.service.QuickTileService"
+187-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:149:13-66
+188            android:exported="true"
+188-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:150:13-36
+189            android:icon="@drawable/ic_tile"
+189-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:151:13-45
+190            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+190-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:152:13-77
+191            <intent-filter>
+191-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:154:13-156:29
+192                <action android:name="android.service.quicksettings.action.QS_TILE" />
+192-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:155:17-87
+192-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:155:25-84
+193            </intent-filter>
+194
+195            <meta-data
+195-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:158:13-160:41
+196                android:name="android.service.quicksettings.ACTIVE_TILE"
+196-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:159:17-73
+197                android:value="false" />
+197-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:160:17-38
+198            <meta-data
+198-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:162:13-164:40
+199                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+199-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:163:17-77
+200                android:value="true" />
+200-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:164:17-37
+201        </service>
+202
+203        <meta-data
+203-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:167:9-169:56
+204            android:name="android.content.APP_RESTRICTIONS"
+204-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:168:13-60
+205            android:resource="@xml/app_restrictions" />
+205-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:169:13-53
+206        <meta-data
+206-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:170:9-172:57
+207            android:name="preloaded_fonts"
+207-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:171:13-43
+208            android:resource="@array/preloaded_fonts" />
+208-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:172:13-54
+209
+210        <service
+210-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:174:9-177:64
+211            android:name="com.wireguard.android.presentation.service.VpnSyncService"
+211-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:175:13-64
+212            android:exported="false"
+212-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:176:13-37
+213            android:foregroundServiceType="dataSync" />
+213-->/Users/bahadirburakkaraoglu/mvpn/ui/src/main/AndroidManifest.xml:177:13-53
+214
+215        <meta-data
+215-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/b0567db43be9e4e7c2f721c98182cb44/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+216            android:name="com.google.android.gms.version"
+216-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/b0567db43be9e4e7c2f721c98182cb44/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+217            android:value="@integer/google_play_services_version" />
+217-->[com.google.android.gms:play-services-basement:18.1.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/b0567db43be9e4e7c2f721c98182cb44/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+218
+219        <provider
+219-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+220            android:name="androidx.startup.InitializationProvider"
+220-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+221            android:authorities="com.mobileitm.vpn.androidx-startup"
+221-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+222            android:exported="false" >
+222-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+223            <meta-data
+223-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+224                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+224-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+225                android:value="androidx.startup" />
+225-->[androidx.emoji2:emoji2:1.2.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/cb104d78052d073204659aa93a3ebd90/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+226            <meta-data
+226-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/ab5dfda288538a9bcdbe22df145b9ea3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+227                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+227-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/ab5dfda288538a9bcdbe22df145b9ea3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+228                android:value="androidx.startup" />
+228-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/ab5dfda288538a9bcdbe22df145b9ea3/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+229            <meta-data
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+230                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+231                android:value="androidx.startup" />
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+232        </provider>
+233
+234        <uses-library
+234-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+235            android:name="androidx.window.extensions"
+235-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+236            android:required="false" />
+236-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+237        <uses-library
+237-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+238            android:name="androidx.window.sidecar"
+238-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+239            android:required="false" />
+239-->[androidx.window:window:1.0.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/719f3153b732af69004dfc9ab3ccd7ed/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+240
+241        <service
+241-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-15:19
+242            android:name="com.wireguard.android.backend.GoBackend$VpnService"
+242-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-78
+243            android:exported="false"
+243-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-37
+244            android:permission="android.permission.BIND_VPN_SERVICE" >
+244-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-69
+245            <intent-filter>
+245-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-14:29
+246                <action android:name="android.net.VpnService" />
+246-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:17-65
+246-->[:tunnel] /Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:25-62
+247            </intent-filter>
+248        </service>
+249
+250        <receiver
+250-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+251            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+252            android:directBootAware="false"
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+253            android:enabled="true"
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+254            android:exported="true"
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+255            android:permission="android.permission.DUMP" >
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+257                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+260                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+261            </intent-filter>
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+263                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+264            </intent-filter>
+265            <intent-filter>
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+266                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/41d2be0e5289f945456faf18c6527665/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+267            </intent-filter>
+268        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+269        <activity
+269-->[com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:14:9-18:65
+270            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+270-->[com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:15:13-93
+271            android:exported="false"
+271-->[com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:16:13-37
+272            android:stateNotNeeded="true"
+272-->[com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:17:13-42
+273            android:theme="@style/Theme.PlayCore.Transparent" />
+273-->[com.google.android.play:core-common:2.0.2] /Users/bahadirburakkaraoglu/.gradle/caches/transforms-3/c1980709bb71f328337b1abb863cb96d/transformed/core-common-2.0.2/AndroidManifest.xml:18:13-62
+274    </application>
+275
+276</manifest>

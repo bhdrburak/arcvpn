@@ -1,0 +1,27 @@
+# ninja log v5
+2101	2140	1752761095578275690	/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/x86_64/libwg.so	47f473f43ab03bb1
+324	2101	1752761095536927779	CMakeFiles/libwg.so.dir/wireguard-tools/src/curve25519.c.o	c5736243390314ef
+573	745	1752761094183239688	/Users/bahadirburakkaraoglu/mvpn/tunnel/build/intermediates/cxx/RelWithDebInfo/592l596q/obj/x86_64/libwg-quick.so	d5568a9fb878f369
+2	18	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86_64/CMakeFiles/libwg-go.so	212e3e28c2bab100
+2	18	0	CMakeFiles/libwg-go.so	212e3e28c2bab100
+325	668	1752761094103843033	CMakeFiles/libwg.so.dir/wireguard-tools/src/ipc.c.o	dd854e25fd57b55b
+433	483	1752761093920089602	CMakeFiles/libwg.so.dir/wireguard-tools/src/terminal.c.o	b03b64784d5ff236
+376	484	1752761093907056437	CMakeFiles/libwg.so.dir/wireguard-tools/src/setconf.c.o	3b9a336bb538b6e9
+0	8	0	clean	b2f6db4e2195b3df
+324	573	1752761094009210089	CMakeFiles/libwg-quick.so.dir/wireguard-tools/src/wg-quick/android.c.o	6ef33596be6961d1
+414	485	1752761093921764643	CMakeFiles/libwg.so.dir/wireguard-tools/src/showconf.c.o	cfb7265919bfd207
+405	535	1752761093971569303	CMakeFiles/libwg.so.dir/wireguard-tools/src/show.c.o	bbca1fc16549850
+324	515	1752761093951647222	CMakeFiles/libwg.so.dir/wireguard-tools/src/config.c.o	81d169817e7d13df
+434	480	1752761093916751977	CMakeFiles/libwg.so.dir/wireguard-tools/src/wg.c.o	53b53e1c32733f37
+324	433	1752761093867257693	CMakeFiles/libwg.so.dir/wireguard-tools/src/encoding.c.o	41abcb6e82d6dfc6
+325	414	1752761093849110654	CMakeFiles/libwg.so.dir/wireguard-tools/src/genkey.c.o	7cbd53624bb40db0
+375	433	1752761093870371401	CMakeFiles/libwg.so.dir/wireguard-tools/src/set.c.o	50d200592f3f4656
+324	375	1752761093809465035	CMakeFiles/libwg-quick.so.dir/ndk-compat/compat.c.o	975c947801768684
+324	376	1752761093808188327	CMakeFiles/libwg.so.dir/ndk-compat/compat.c.o	ce906cc4870f7058
+326	405	1752761093839614656	CMakeFiles/libwg.so.dir/wireguard-tools/src/pubkey.c.o	5f57c68648304c68
+3	225	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86_64/CMakeFiles/elf-cleaner	bc650a189e4e059c
+3	225	0	CMakeFiles/elf-cleaner	bc650a189e4e059c
+1	13	0	CMakeFiles/libwg-go.so	212e3e28c2bab100
+1	13	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86_64/CMakeFiles/libwg-go.so	212e3e28c2bab100
+1	210	0	CMakeFiles/elf-cleaner	bc650a189e4e059c
+1	210	0	/Users/bahadirburakkaraoglu/mvpn/tunnel/.cxx/RelWithDebInfo/592l596q/x86_64/CMakeFiles/elf-cleaner	bc650a189e4e059c

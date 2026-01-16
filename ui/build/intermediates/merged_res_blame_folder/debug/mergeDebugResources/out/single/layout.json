@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_detail_peer.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_detail_peer.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_list_item.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_list_item.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tv_tunnel_list_item.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tv_tunnel_list_item.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/item_dialog_list.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/item_dialog_list.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/app_list_item.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/app_list_item.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tv_file_list_item.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tv_file_list_item.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/add_tunnels_bottom_sheet.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/add_tunnels_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/app_list_dialog_fragment.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/app_list_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/main_activity.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/main_activity.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_qr_setup.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_qr_setup.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_start.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_start.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/configuration_profile_item_view.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/configuration_profile_item_view.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/activity_home.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/layout_app_bar.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/layout_app_bar.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_status.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_status.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_host_setup.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_host_setup.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_editor_peer.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_editor_peer.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_list_fragment.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_list_fragment.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_detail_fragment.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_detail_fragment.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tunnel_editor_fragment.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tunnel_editor_fragment.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/log_viewer_activity.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/log_viewer_activity.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/tv_activity.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/tv_activity.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/config_naming_dialog_fragment.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/config_naming_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_configuration_profiles.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_configuration_profiles.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/log_viewer_entry.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/log_viewer_entry.xml"
+    },
+    {
+        "merged": "com.wireguard.android.ui-mergeDebugResources-78:/layout/fragment_manual_setup.xml",
+        "source": "com.wireguard.android.ui-main-81:/layout/fragment_manual_setup.xml"
+    }
+]
