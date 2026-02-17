@@ -68,4 +68,7 @@
     <color name="black">#000000</color>
     <color name="error">#DA5684</color>
     <color name="logout">#DA5684</color>
+    <color name="grayDarkMore">#AAAAAA</color>
+    <color name="active_color">#61ba8d</color>
+    <color name="grayLight">#D7D7D7</color>
 </resources>

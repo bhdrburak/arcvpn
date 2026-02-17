@@ -342,5 +342,13 @@
     <string name="logout_profile_dialog_message">Are you sure you want to log out from this profile?</string>
     <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="login_failed_message">Kullanıcı adı veya şifre hatalı</string>
+    <string name="login_failed_message">Username or Password failed</string>b
+    <string name="user_login">User Login</string>
+    <string name="no_server_list_message">No server to display the content on could be found.</string>
+
+
+    <string name="profile">Profil</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="home_screen">Ana Sayfa</string>
+    <string name="empty_notification_description">Notification not found</string>
 </resources>

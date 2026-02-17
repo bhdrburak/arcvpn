@@ -2,7 +2,7 @@
 
 <resources>
 
-    <style name="MobileITMVpnThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="ArcVpnThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -41,11 +41,11 @@
         <item name="popExitAnim">@anim/nav_default_pop_exit_anim</item>
     </style>
 
-    <style name="MobileITMVpnTheme.Starting" parent="Theme.SplashScreen">
+    <style name="ArcVpnTheme.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/splash_icon</item>
         <item name="android:windowSplashScreenBrandingImage">@drawable/splash_branding</item>
-        <item name="postSplashScreenTheme">@style/MobileITMVpnTheme</item>
+        <item name="postSplashScreenTheme">@style/ArcVpnTheme</item>
     </style>
 </resources>

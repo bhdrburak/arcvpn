@@ -5,4 +5,4 @@
 
 package com.wireguard.android.domain.model
 
-data class LoginData (val cert: String, val username: String, val password: String, val serial: String)
+data class LoginData (val email: String, val password: String)

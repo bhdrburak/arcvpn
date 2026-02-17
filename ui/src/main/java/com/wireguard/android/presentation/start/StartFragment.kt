@@ -126,34 +126,23 @@ class StartFragment : BaseFragment() {
                     }
 
                     is StartUiEvent.NavigateToManualSetup -> {
-                        val bundle = Bundle().apply {
-                            putBoolean("credential", event.loginMethods.credential)
-                            putBoolean("certification", event.loginMethods.certification)
-                            putBoolean("validDevice", event.loginMethods.validDevice)
-                        }
                         if (findNavController().currentDestination?.id == R.id.startFragment) {
-                            findNavController().navigate(R.id.action_startFragment_to_manualSetupFragment, bundle)
+                            Log.d("TestNavigate", "NavigateToManualSetup")
+                            findNavController().navigate(R.id.action_startFragment_to_manualSetupFragment)
                         }
                     }
 
                     StartUiEvent.NavigateToProfile -> {
                         if (findNavController().currentDestination?.id == R.id.startFragment) {
-                            findNavController().navigate(R.id.action_startFragment_to_configurationProfilesFragment)
+                            Log.d("TestNavigate", "NavigateToProfile")
+                            findNavController().navigate(R.id.action_startFragment_to_mainFragment)
                         }
                     }
 
                     StartUiEvent.NavigateToStatus -> {
                         if (findNavController().currentDestination?.id == R.id.startFragment) {
-                            findNavController().navigate(R.id.action_startFragment_to_statusFragment)
-                        }
-                    }
-
-                    is StartUiEvent.NavigateToProfileWithData -> {
-                        if (findNavController().currentDestination?.id == R.id.startFragment) {
-                            val bundle = Bundle().apply {
-                                putBoolean("shouldFillFields", event.shouldFillFields)
-                            }
-                            findNavController().navigate(R.id.action_startFragment_to_configurationProfilesFragment, bundle)
+                            Log.d("TestNavigate", "NavigateToMain")
+                            findNavController().navigate(R.id.action_startFragment_to_mainFragment)
                         }
                     }
                 }

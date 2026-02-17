@@ -9,9 +9,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.wireguard.android.Application
 import com.wireguard.android.common.Result
-import com.wireguard.android.common.knobs.AdminKnobs
 import com.wireguard.android.common.knobs.ProfileManager
-import com.wireguard.android.domain.usecase.get_login_methods.GetLoginMethodsUseCase
+import com.wireguard.android.domain.usecase.get_node.GetNodeUseCase
 import com.wireguard.android.presentation.common.ErrorMapper
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -23,7 +22,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class StartViewModel @Inject constructor(
-    private val getLoginMethodsUseCase: GetLoginMethodsUseCase,
+    private val getLoginMethodsUseCase: GetNodeUseCase,
     private val errorMapper: ErrorMapper
 
 ): ViewModel()  {
@@ -49,7 +48,6 @@ class StartViewModel @Inject constructor(
                         val uiText = errorMapper.mapToUiText(result.error)
 
                         _event.emit(StartUiEvent.ShowError(uiText))
-                        _event.emit(StartUiEvent.NavigateToProfileWithData(shouldFillFields = false)) // loginMethods yoksa
                     }
                 }
 

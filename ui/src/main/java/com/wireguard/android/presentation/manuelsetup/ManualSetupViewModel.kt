@@ -54,16 +54,15 @@ class ManualSetupViewModel @Inject constructor(
     fun onCertificateSelected(cert: X509Certificate) {
         selectedCertificate = cert
     }
-    private fun login(username: String, password: String, cert: String) {
-        val serial = deviceInfoProvider.getDeviceSerial()
+    private fun login(username: String, password: String) {
 
         viewModelScope.launch {
             _uiState.value = ManuelSetupUiState.Loading
-            loginUseCase(LoginData(cert, username, password, serial)).collect { result ->
+            loginUseCase(LoginData(username, password)).collect { result ->
                 when (result) {
                     is Result.Success -> {
-                        SessionManager.saveAuthToken(result.data.tokens.accessToken)
-                        SessionManager.saveRefreshToken(result.data.tokens.refreshToken)
+                        SessionManager.saveAuthToken(result.data.token)
+                        //SessionManager.saveRefreshToken(result.data.tokens.refreshToken)
                         SessionManager.setLoggedIn(true)
 
                         Application.getTunnelManager().getTunnels().forEach { tunnel ->
@@ -71,13 +70,13 @@ class ManualSetupViewModel @Inject constructor(
                         }
 
                         Application.getTunnelManager().getTunnels().forEach { it.deleteAsync() }
-                        TunnelImporter.importTunnelFromRaw(result.data.config.byteInputStream()) {
+                        /*TunnelImporter.importTunnelFromRaw(result.data.config.byteInputStream()) {
                             viewModelScope.launch {
                                 _event.emit(ManuelSetupUiEvent.NavigateToStatus)
                             }
-                        }
-                        //_uiState.value = ManuelSetupUiState.Success(result.data)
-                        //_event.emit(ManuelSetupUiEvent.NavigateToStatus)
+                        }*/
+                        _uiState.value = ManuelSetupUiState.Success(result.data)
+                        _event.emit(ManuelSetupUiEvent.NavigateToStatus)
                     }
                     is Result.Error -> { // config boşsa buraya düşecek use case handle edildi.
                         _uiState.value = ManuelSetupUiState.Idle
@@ -88,16 +87,8 @@ class ManualSetupViewModel @Inject constructor(
         }
     }
 
-    fun onLoginClicked(username :String,password: String, requireCredential: Boolean,requireCert:Boolean ){
+    fun onLoginClicked(username :String, password: String){
         val fieldErrors = mutableMapOf<ValidationFieldType, UiText>()
-
-        if (requireCredential) {
-
-        }
-
-        if (requireCert && selectedCertificate == null) {
-            fieldErrors[ValidationFieldType.CERTIFICATE] = UiText.DynamicString("Sertifika seçilmedi")
-        }
 
 
         if (fieldErrors.isNotEmpty()) {
@@ -106,15 +97,7 @@ class ManualSetupViewModel @Inject constructor(
             return
         }
 
-        val certString = selectedCertificate?.encoded?.let {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                java.util.Base64.getEncoder().encodeToString(it)
-            } else {
-                android.util.Base64.encodeToString(it, android.util.Base64.DEFAULT)
-            }
-        } ?: ""
-
-        login(username, password, certString)
+        login(username, password)
     }
 
 }

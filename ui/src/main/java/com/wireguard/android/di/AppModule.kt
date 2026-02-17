@@ -10,9 +10,8 @@ import com.google.gson.GsonBuilder
 import com.wireguard.android.common.error.UserDataValidator
 import com.wireguard.android.common.network.NetworkChecker
 import com.wireguard.android.data.common.ErrorHandler
-import com.wireguard.android.data.remote.interceptor.AuthInterceptor
 import com.wireguard.android.data.remote.VpnAPI
-import com.wireguard.android.data.remote.interceptor.BaseUrlInterceptor
+import com.wireguard.android.data.remote.interceptor.AuthInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -38,7 +37,7 @@ object AppModule {
         gson: Gson
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://mvpntest.mobileitm.com/api/") // boş olamaz, ama override edilecek
+            .baseUrl("http://arcvpn.arcyintel.com") // boş olamaz, ama override edilecek
             .addConverterFactory(GsonConverterFactory.create(gson))
             .client(okHttpClient)
             .build()
@@ -46,21 +45,15 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideBaseUrlInterceptor(): BaseUrlInterceptor {
-        return BaseUrlInterceptor()
-    }
-    @Provides
-    @Singleton
     fun provideAuthInterceptor(): AuthInterceptor = AuthInterceptor()
     @Provides
     @Singleton
-    fun provideOkHttpClient(baseUrlInterceptor: BaseUrlInterceptor,
+    fun provideOkHttpClient(
                             authInterceptor: AuthInterceptor
     ): OkHttpClient {
         return OkHttpClient.Builder()
             .readTimeout(60.toLong(), TimeUnit.SECONDS)
             .connectTimeout(10.toLong(), TimeUnit.SECONDS)
-            .addInterceptor(baseUrlInterceptor) // 👈 burada new değil, Hilt'ten geleni almamız gerekiyormuş.
             .addInterceptor(authInterceptor)
             .build()
     }

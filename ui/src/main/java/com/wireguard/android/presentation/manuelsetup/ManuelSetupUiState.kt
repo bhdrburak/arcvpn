@@ -5,12 +5,13 @@
 
 package com.wireguard.android.presentation.manuelsetup
 
+import com.wireguard.android.data.remote.dto.LoginResponseModel
 import com.wireguard.android.domain.model.MasterData
 import com.wireguard.android.presentation.common.ValidationErrorState
 
 sealed class ManuelSetupUiState {
     data object Idle : ManuelSetupUiState()
     data object Loading : ManuelSetupUiState()
-    data class Success(val data: MasterData) : ManuelSetupUiState()
+    data class Success(val data: LoginResponseModel) : ManuelSetupUiState()
     data class ValidationErrors(val errors: ValidationErrorState) : ManuelSetupUiState()
 }

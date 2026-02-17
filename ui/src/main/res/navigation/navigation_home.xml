@@ -18,8 +18,9 @@
             app:destination="@id/statusFragment"
             app:popUpTo="@id/setup_navigation" />
         <action
-            android:id="@+id/action_manualSetupFragment_to_configurationProfilesFragment"
-            app:destination="@id/configurationProfilesFragment" />
+            android:id="@+id/action_manualSetupFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/setup_navigation" />
     </fragment>
     <fragment
         android:id="@+id/QRSetupFragment"
@@ -38,6 +39,9 @@
         <action
             android:id="@+id/action_statusFragment_to_tunnelEditorFragment"
             app:destination="@id/tunnelEditorFragment" />
+        <action
+            android:id="@+id/action_statusFragment_to_vpnDetailFragment"
+            app:destination="@id/vpnDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/startFragment"
@@ -53,31 +57,28 @@
             app:destination="@id/manualSetupFragment"
             app:popUpTo="@id/setup_navigation" />
         <action
-            android:id="@+id/action_startFragment_to_configurationProfilesFragment"
-            app:destination="@id/configurationProfilesFragment" />
+            android:id="@+id/action_startFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/tunnelEditorFragment"
         android:name="com.wireguard.android.presentation.tunnel.TunnelEditorFragment"
         android:label="TunnelEditorFragment" />
     <fragment
-        android:id="@+id/hostSetupFragment"
-        android:name="com.wireguard.android.presentation.hostsetup.HostSetupFragment"
-        android:label="HostSetupFragment">
-        <action
-            android:id="@+id/action_hostSetupFragment_to_configurationProfilesFragment"
-            app:destination="@id/configurationProfilesFragment" />
-    </fragment>
+        android:id="@+id/vpnDetailFragment"
+        android:name="com.wireguard.android.presentation.vpn_detail.VpnDetailFragment"
+        android:label="VpnDetailFragment" />
     <fragment
-        android:id="@+id/configurationProfilesFragment"
-        android:name="com.wireguard.android.presentation.profile.ConfigurationProfilesFragment"
-        android:label="fragment_configuration_profiles"
-        tools:layout="@layout/fragment_configuration_profiles" >
-        <action
-            android:id="@+id/action_configurationProfilesFragment_to_hostSetupFragment"
-            app:destination="@id/hostSetupFragment" />
-        <action
-            android:id="@+id/action_configurationProfilesFragment_to_manualSetupFragment"
-            app:destination="@id/manualSetupFragment" />
-    </fragment>
+        android:id="@+id/profileFragment"
+        android:name="com.wireguard.android.presentation.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.wireguard.android.presentation.main_container.MainFragment"
+        android:label="MainFragment" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.wireguard.android.presentation.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
 </navigation>

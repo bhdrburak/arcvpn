@@ -39,7 +39,9 @@ class ManualSetupFragment : BaseLoginFragment() {
     private var _binding: FragmentManualSetupBinding? = null
     private val binding get() = _binding!!
 
+
     private val viewModel: ManualSetupViewModel by viewModels()
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentManualSetupBinding.inflate(inflater, container, false)
@@ -49,52 +51,30 @@ class ManualSetupFragment : BaseLoginFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.appBar.ibAction.visibility = View.VISIBLE
-        binding.appBar.ibAction.setImageResource(R.drawable.logout)
         observeUiState()
         observeEvents()
-
-        binding.appBar.ibAction.setOnClickListener {
-            showDeleteConfirmation()
-        }
 
         binding.etUsername.addTextChangedListener { checkLoginButton() }
         binding.etPassword.addTextChangedListener { checkLoginButton() }
 
-        binding.btnLogin.setOnClickListener {
+        binding.btnSave.setOnClickListener {
             tryLogin()
         }
 
-        binding.btnSelectCertificate.setOnClickListener {
-            selectCertificateDialog()
-        }
-
-        setupByArgs()
-
         if (BuildConfig.DEBUG) {
-            binding.etUsername.setText("admin@admin.com")
-            binding.etPassword.setText("f911Ya8.Ry5")
+            binding.etUsername.setText("ismailonuremre@gmail.com")
+            binding.etPassword.setText("Par0la.123")
         }
         //disableBackPress()
 
     }
 
-    private fun setupByArgs() {
-        val credential = arguments?.getBoolean("credential") == true
-        val cert = arguments?.getBoolean("certification") == true
-
-        binding.etUsername.isVisible = credential
-        binding.etPassword.isVisible = credential
-        binding.btnSelectCertificate.isVisible = cert
-    }
 
     private fun tryLogin() {
         val username = binding.etUsername.text.toString()
         val password = binding.etPassword.text.toString()
-        val requireCredential = arguments?.getBoolean("credential") == true
-        val requireCert = arguments?.getBoolean("certification") == true
 
-        viewModel.onLoginClicked(username, password, requireCredential, requireCert)
+        viewModel.onLoginClicked(username, password)
     }
 
     private fun observeUiState() {
@@ -131,7 +111,8 @@ class ManualSetupFragment : BaseLoginFragment() {
 
                     }
                     is ManuelSetupUiEvent.NavigateToStatus -> {
-                        findNavController().navigate(R.id.action_manualSetupFragment_to_statusFragment)
+                        Log.d("TestNavigate", "NavigateToStatus 1")
+                        findNavController().navigate(R.id.action_manualSetupFragment_to_mainFragment)
                     }
                     else -> {}
 
@@ -165,7 +146,7 @@ class ManualSetupFragment : BaseLoginFragment() {
             .setMessage(getString(R.string.logout_profile_dialog_message))
             .setPositiveButton(getString(R.string.button_yes_text)) { _, _ ->
                 clearProfileCache()
-                findNavController().navigate(R.id.action_manualSetupFragment_to_configurationProfilesFragment)
+                findNavController().navigate(R.id.action_manualSetupFragment_to_mainFragment)
             }
             .setNegativeButton(getString(R.string.button_no_text)) { dialog, _ -> dialog.dismiss() }
             .create()
@@ -177,8 +158,8 @@ class ManualSetupFragment : BaseLoginFragment() {
             val context = requireContext()
             val cert = KeyChain.getCertificateChain(context, alias)?.firstOrNull() as? X509Certificate
             cert?.let {
-                viewModel.onCertificateSelected(it)
-                binding.btnSelectCertificate.text = it.subjectDN.name
+                //viewModel.onCertificateSelected(it)
+                //binding.btnSelectCertificate.text = it.subjectDN.name
                 checkLoginButton()
             }
         } catch (e: Exception) {
@@ -230,8 +211,8 @@ class ManualSetupFragment : BaseLoginFragment() {
             AlertDialog.Builder(requireContext())
                 .setTitle("CA Sertifikası Seçin")
                 .setItems(certNames.toTypedArray()) { _, which ->
-                    viewModel.onCertificateSelected(globalCerts[which])
-                    binding.btnSelectCertificate.text = globalCerts[which].subjectDN.name
+                    //viewModel.onCertificateSelected(globalCerts[which])
+                    //binding.btnSelectCertificate.text = globalCerts[which].subjectDN.name
                     checkLoginButton()
                 }
                 .show()
@@ -246,12 +227,12 @@ class ManualSetupFragment : BaseLoginFragment() {
         val cert = arguments?.getBoolean("certification") == true
         val isUsernameFilled = binding.etUsername.text?.isNotEmpty() == true
         val isPasswordFilled = binding.etPassword.text?.isNotEmpty() == true
-        val isCertSelected = viewModel.selectedCertificate != null
+        //val isCertSelected = viewModel.selectedCertificate != null
 
         val shouldEnable = (!credential || (isUsernameFilled && isPasswordFilled)) &&
-                (!cert || isCertSelected)
+                (!cert)
 
-        binding.btnLogin.isEnabled = shouldEnable
+        binding.btnSave.isEnabled = shouldEnable
     }
 
     override fun onDestroy() {

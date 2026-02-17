@@ -32,6 +32,9 @@ import com.wireguard.android.common.session.SessionManager
 import com.wireguard.android.domain.usecase.get_config.GetConfigUseCase
 import com.wireguard.android.domain.usecase.refresh_token.RefreshTokenUseCase
 import com.wireguard.android.common.util.TunnelImporter
+import com.wireguard.android.data.remote.dto.GetConfigModel
+import com.wireguard.android.data.remote.dto.QuickConfig
+import com.wireguard.android.domain.usecase.get_quick_config.GetQuickConfigUseCase
 import com.wireguard.android.viewmodel.ConfigProxy
 import dagger.hilt.android.AndroidEntryPoint
 import io.reactivex.rxjava3.disposables.CompositeDisposable
@@ -56,7 +59,7 @@ import javax.inject.Inject
  */
 
 private const val CHANNEL_ID = "VPN Service Channel"
-var PING_INTERVAL = 60000L
+var PING_INTERVAL = 30000L
 private const val TAG = "VpnSyncService"
 @AndroidEntryPoint
 class VpnSyncService : Service() {
@@ -65,18 +68,9 @@ class VpnSyncService : Service() {
     lateinit var refreshTokenUseCase: RefreshTokenUseCase
 
     @Inject
-    lateinit var fetchConfigUseCase: GetConfigUseCase
+    lateinit var getQuickConfigUseCase: GetQuickConfigUseCase
 
-    private var restrictionsReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context, intent: Intent) {
-            val cacheManager = Application.getCacheManager()
-            cacheManager.writeBoolean("manage_config_changed", true)
-            ProfileManager.updateFromRestrictions()
-            fetchNewConfig()
-        }
-    }
-
-
+    private var configId = -1
     private val job = SupervisorJob()
     private var scope = CoroutineScope(Dispatchers.IO + job)
 
@@ -90,7 +84,6 @@ class VpnSyncService : Service() {
         val connectionTime = AdminKnobs.connectionTime
 
 
-        ContextCompat.registerReceiver(this, restrictionsReceiver, restrictionsFilter, ContextCompat.RECEIVER_NOT_EXPORTED)
 
         Log.e("VpnSyncService"," AdminKnobs ConnectionTime: ${AdminKnobs.connectionTime}")
         Log.e("VpnSyncService"," CacheMaanager ConnectionTime: $connectionTime")
@@ -99,7 +92,6 @@ class VpnSyncService : Service() {
         Log.e("VpnSyncService"," AdminKnobs Name: ${AdminKnobs.connectionName}")
         Log.e("VpnSyncService"," AdminKnobs Always Connection: ${AdminKnobs.alwaysOnConnection}")
         Log.e("VpnSyncService"," AdminKnobs  Packages: ${AdminKnobs.getAllowedPackageList().toString()}")
-
 
 
 
@@ -197,9 +189,21 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         Log.d(TAG, "onStartCommand: ${intent?.action}")
-
+        val config = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            intent?.getParcelableExtra("vpn_config", QuickConfig::class.java)
+        } else {
+            @Suppress("DEPRECATION")
+            intent?.getParcelableExtra("vpn_config")
+        }
+        configId = intent?.getIntExtra("config_id", -1) ?: -1
         createNotificationChannel()
         startForeground(1, getNotification())
+        config?.let {
+
+            CoroutineScope(Dispatchers.IO).launch {
+                updateTunnelIfNeeded(config.config)
+            }
+        }
 
         if (intent?.action == ACTION_STOP) {
             stopService()
@@ -215,8 +219,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
     override fun onDestroy() {
         super.onDestroy()
         Log.e(TAG, "onDestroy")
-        job.cancel() // scope'u iptal eder
-        unregisterReceiver(restrictionsReceiver)
+        job.cancel()
     }
 
     private fun checkPrivateKey(inputStream: InputStream): Boolean {
@@ -382,10 +385,6 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
             deleteEverything()
             withContext(Dispatchers.Main) {
                 stopSelf()
-                val intent = Intent(Application.instance, HomeActivity::class.java).apply {
-                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-                }
-                Application.instance.startActivity(intent)
             }
         }
     }
@@ -397,65 +396,25 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
         }
     }
 
-    private fun refreshToken(){
-        Log.d("AccessTokenCheck","RefreshToken metoduna girildi")
-        val manageConfigIsChanged = Application.getCacheManager().readBoolean("manage_config_changed",false)
-
-        CoroutineScope(Dispatchers.IO).launch {
-            refreshTokenUseCase().collect{result ->
-                when(result){
-                    is Result.Success -> {
-
-                        Log.d(
-                            "AccessTokenCheck",
-                            "VpnSyncService (Refresh Token Method Succesfull) have a new refresh token :${result.data.tokens.refreshToken}"
-                        )
-                        Log.d(
-                            "AccessTokenCheck",
-                            "VpnSyncService(Refresh Token Method Succesfull) have a new access token :${result.data.tokens.accessToken}"
-                        )
-                        Log.d("AccessTokenCheck", "Refresh Token Config alındı")
-                        SessionManager.saveRefreshToken(result.data.tokens.refreshToken)
-                        SessionManager.saveAuthToken(result.data.tokens.accessToken)
-                        Application.getCacheManager().writeBoolean("last_state", true)
-                        val configText = result.data.config
-                        updateTunnelIfNeeded(configText,manageConfigIsChanged)
-                    }
-                    is Result.Error ->{
-                        Log.e("AccessTokenCheck", " Refresh Token Geçersiz. Çıkış yapılıyor.")
-                        disconnectTunnelIfNeeded()
-                        logoutAndRestartApp()
-                    }
-                }
-
-            }
-        }
-    }
-
     private fun fetchNewConfig() {
 
         val cacheManager = Application.getCacheManager()
-        val manageConfigIsChanged = cacheManager.readBoolean("manage_config_changed", false)
 
-        if (AdminKnobs.host.isEmpty() || AdminKnobs.port.isEmpty()){
-            logoutAndRestartApp()
-            return
-        }
         CoroutineScope(Dispatchers.IO).launch {
-            fetchConfigUseCase().collect { result ->
+            getQuickConfigUseCase(GetConfigModel(configId)).collect { result ->
                 when (result) {
                     is Result.Success -> {
                         val configText = result.data
                         Log.d("VpnSyncService", "Fetchconfig :Config alındı ve işleniyor")
-                        Log.e("VpnSyncService",result.data)
+                        Log.e("VpnSyncService",result.data.config)
                         cacheManager.writeBoolean("last_state", true)
-                        updateTunnelIfNeeded(configText,manageConfigIsChanged)
+                        updateTunnelIfNeeded(configText.config)
                     }
                     is Result.Error -> {
                         when(result.error){
                             DataError.Network.UNAUTHORIZED -> {
                                 Log.e("VpnSyncService", "fetchConfig hatası: ${result.error} refreshOken çağrıldı")
-                                refreshToken()
+                                //refreshToken()
                             }
                             else ->{
                                 Log.e("VpnSyncService", "fetchConfig hatası: ${result.error}")
@@ -470,7 +429,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
         }
     }
 
-    private suspend fun updateTunnelIfNeeded(configText: String, manageConfigIsChanged: Boolean) {
+    private suspend fun updateTunnelIfNeeded(configText: String) {
         val byteArray = configText.toByteArray(Charsets.UTF_8)
         val is1 = ByteArrayInputStream(byteArray)
         val is2 = ByteArrayInputStream(byteArray)
@@ -478,7 +437,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
         val tunnels = Application.getTunnelManager().getTunnels()
         val firstTunnel = tunnels.firstOrNull()
 
-        if (!checkPrivateKey(is1) || firstTunnel?.state == Tunnel.State.DOWN || manageConfigIsChanged) {
+        if (!checkPrivateKey(is1) || firstTunnel?.state == Tunnel.State.DOWN || firstTunnel == null) {
             tunnels.forEach { tunnel ->
                 Application.getTunnelManager().delete(tunnel)
             }
@@ -490,7 +449,7 @@ private suspend fun checkVPNConnection(willReset: Boolean) {
                     }
                 }
             }
-        }
+    }
     }
 
 }

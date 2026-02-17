@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="MobileITMVpnThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="ArcVpnThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
@@ -41,15 +41,15 @@
 
     </style>
 
-    <style name="MobileITMVpnTheme.Starting" parent="Theme.SplashScreen">
+    <style name="ArcVpnTheme.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/splash_icon</item>
-        <item name="postSplashScreenTheme">@style/MobileITMVpnTheme</item>
+        <item name="postSplashScreenTheme">@style/ArcVpnTheme</item>
     </style>
 
 
-    <style name="MobileITMVpnTheme" parent="MobileITMVpnThemeBase">
+    <style name="ArcVpnTheme" parent="ArcVpnThemeBase">
 
     </style>
 

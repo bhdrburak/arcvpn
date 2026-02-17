@@ -25,9 +25,7 @@ fun MasterResponseDto.toDomain(): MasterData {
 
 fun LoginData.toDto(): LoginRequest {
     return LoginRequest(
-        cert = cert,
-        username = username,
-        password = password,
-        serial = serial
+        email = email,
+        password = password
     )
 }

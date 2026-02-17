@@ -8,7 +8,7 @@
         <item name="android:windowLightNavigationBar">@bool/light_navigation_bar</item>
     </style>
 
-    <style name="MobileITMVpnTheme" parent="MobileITMVpnThemeBase">
+    <style name="ArcVpnTheme" parent="ArcVpnThemeBase">
         <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>

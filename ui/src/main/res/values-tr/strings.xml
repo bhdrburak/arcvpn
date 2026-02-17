@@ -76,5 +76,12 @@
     <string name="profile_deleted">Profil silindi.</string>
     <string name="logout_profile_dialog_title">Profilden Çıkış Yap</string>
     <string name="logout_profile_dialog_message">Bu profilden çıkış yapmak istediğinize emin misiniz?</string>
+    <string name="user_login">Kullanıcı Girişi</string>
+    <string name="no_server_list_message">Gösterilecek Sunucu Bulunamamıştır.</string>
+
+    <string name="profile">Profil</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="home_screen">Ana Sayfa</string>
+    <string name="empty_notification_description">Bildirim bulunamadı.</string>
 
 </resources>

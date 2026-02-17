@@ -5,10 +5,11 @@
 
 package com.wireguard.android.presentation.start
 
+import com.wireguard.android.data.remote.dto.AllNodeModel
 import com.wireguard.android.domain.model.LoginMethods
 
 sealed class StartUiState {
     data object Idle : StartUiState()
     data object Loading : StartUiState()
-    data class Success(val data: LoginMethods) : StartUiState()
+    data class Success(val data: AllNodeModel) : StartUiState()
 }
